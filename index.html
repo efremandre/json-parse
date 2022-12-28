@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Lena Time</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="container">
+				<form class="form" onsubmit="return false;" action="#">
+					<input id="input" class="input" type="file">
+					<label for="input" class="input-label">
+						<span class="input-label_span input-label_icon-wrapper"><img class="input-label_icon"
+								src="./assets/download.svg" alt="Выбрать файл" width="25"></span>
+						<span class="input-label_span input-label_button-text">JSONчик загрузи пож-та</span>
+					</label>
+				</form>
+				<div class="output">
+					<button class="btn-hidden">Сводку пож-та</button>
+					<button class="copie">Скопировать всю пож-та</button>
+					<div class="all-data-time hiden">
+						<div class="output-row"></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="gif">
+			<img class="gif-img" src="" alt="dance">
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
